@@ -1,0 +1,34 @@
+#row {
+    transition: 1s transform;
+  }
+  .tile {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: 1s transform;
+    transform-origin: top left;
+    float: left;
+    margin-right: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+  }
+  
+  #row:hover {
+    transform: translate3d(-40px, 0, 0);
+  }
+  .tile img{
+    max-width:85%;
+    max-height:85%;
+    margin: auto;
+  }
+  .tile:hover {
+    transform: scale(1.5);
+  }
+  
+  .tile:hover ~ .tile {
+    transform: translate3d(60px, 0, 0);
+  }
