@@ -98,16 +98,16 @@ export default function SkillsSection() {
               <div style={carouselHover} class="row">
               <h3 style={{paddingTop:"50px"}}><b>Technologies/Software:</b></h3>
               <div class="row" style={{paddingLeft:"5%"}}>
-              <div ><img class="tile" onMouseOver={() => changeTechText("Bootstrap (A Popular User Interface Framework)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/bootstrap.png")}></img></div>
-              <div><img class="tile" onMouseOver={() => changeTechText("Bitbucket (Enterprise-level Repository Hosting Service)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/bitbucket.png")}></img></div>
-              <div><img class="tile" onMouseOver={() => changeTechText("Docker (Application Deployment Tool Using Containers)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/docker.png")}></img></div>
-              <div><img class="tile" onMouseOver={() => changeTechText("Github (Popular Git Repository Hosting Service)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/github.png")}></img></div>
-              <div><img class="tile" onMouseOver={() => changeTechText("Memcached (Memory-Chaching System for Decreasing Latency in DB-Driven Applications)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/memcached.png")}></img></div>
-              <div><img class="tile" onMouseOver={() => changeTechText("Material UI (A Popular React User Interface Framework)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/materialui.svg")}></img></div>
-  {/*<div><img class="tile" onMouseOver={() => changeTechText("Kubernetes (An Open-Source Container Orchestration System For Deployment Automation)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/kubernetes.png")}></img></div>*/}
-              <div><img class="tile" onMouseOver={() => changeTechText("MongoDB (A Popular NoSQL Databse)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/mongo.png")}></img></div>
-              <div><img class="tile" onMouseOver={() => changeTechText("Postman (A Widely-Used Tool for API Testing)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/postman.png")}></img></div>
-              <div><img class="tile" onMouseOver={() => changeTechText("Amazon Web Services (Amazon's Cloud Service)")} onMouseLeave={() => changeTechText("")} src={require("../../../assets/img/icons/aws.png")}></img></div>
+              <div ><img class="tile" onMouseOver={() => changeTechText("Bootstrap (A Popular User Interface Framework)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/bootstrap.png")}></img></div>
+              <div><img class="tile" onMouseOver={() => changeTechText("Bitbucket (Enterprise-level Repository Hosting Service)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/bitbucket.png")}></img></div>
+              <div><img class="tile" onMouseOver={() => changeTechText("Docker (Application Deployment Tool Using Containers)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/docker.png")}></img></div>
+              <div><img class="tile" onMouseOver={() => changeTechText("Github (Popular Git Repository Hosting Service)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/github.png")}></img></div>
+              <div><img class="tile" onMouseOver={() => changeTechText("Memcached (Memory-Chaching System for Decreasing Latency in DB-Driven Applications)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/memcached.png")}></img></div>
+              <div><img class="tile" onMouseOver={() => changeTechText("Material UI (A Popular React User Interface Framework)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/materialui.svg")}></img></div>
+  {/*<div><img class="tile" onMouseOver={() => changeTechText("Kubernetes (An Open-Source Container Orchestration System For Deployment Automation)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/kubernetes.png")}></img></div>*/}
+              <div><img class="tile" onMouseOver={() => changeTechText("MongoDB (A Popular NoSQL Databse)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/mongo.png")}></img></div>
+              <div><img class="tile" onMouseOver={() => changeTechText("Postman (A Widely-Used Tool for API Testing)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/postman.png")}></img></div>
+              <div><img class="tile" onMouseOver={() => changeTechText("Amazon Web Services (Amazon's Cloud Service)")} onMouseLeave={() => changeTechText("")} alt="" src={require("../../../assets/img/icons/aws.png")}></img></div>
               </div></div>  
               <div class="row" style={{paddingTop:"50px", paddingLeft:"20%"}}>
                 <h3 style={{}} id="techText">

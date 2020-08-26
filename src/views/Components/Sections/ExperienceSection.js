@@ -1,30 +1,17 @@
-import React, { useState } from 'react';
-import spdf from "simple-react-pdf";
+import React from 'react';
 import styles from "assets/jss/material-kit-react/views/componentsSections/tabsStyle.js";
 import { makeStyles } from "@material-ui/core/styles";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { Chip, Avatar, Grid } from '@material-ui/core';
+import { Chip, Avatar } from '@material-ui/core';
 import { FaReact, FaFlask, FaLaptopCode, FaCloud, FaHistory } from 'react-icons/fa';
-import { Modal, Button } from 'react-bootstrap';
+
 const useStyles = makeStyles(styles);
 
 export default function ExperienceSection(props) {
   const classes = useStyles();
-  const [show, setShow] = useState(false);
-  const toggle = () => setShow(!show);
-  //const [fade, setFade] = useState(0);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-  const customStyles = {
-    content: {
-      top: '50%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      transform: 'translate(-50%, -50%)'
-    }
-  };
+  
+
   return (
     <div style={{ background:"linear-gradient(to bottom, rgb(238, 238, 238), #fff 100%)" }} className={classes.section}>
       <div className={classes.container}>
@@ -57,7 +44,7 @@ export default function ExperienceSection(props) {
               <button  class="btn btn-outline-primary" data-toggle="modal" data-target="#modal1">
                   More Details  <i class="fas fa-info-circle"></i>
               </button>
-              <img style={{ width: "30%", height: "100%", float: "right", bottom: "0", right: "0" }} src={require("../../../assets/img/icons/808.webp")}></img>
+              <img style={{ width: "30%", height: "100%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/808.webp")}></img>
               </div>
             </VerticalTimelineElement>
 
@@ -84,7 +71,7 @@ export default function ExperienceSection(props) {
               <button  class="btn btn-outline-primary" data-toggle="modal" data-target="#modal2">
                   More Details  <i class="fas fa-info-circle"></i>
               </button>
-              <img style={{ width: "60%", height: "100%", float: "right", bottom: "0", right: "0" }} src={require("../../../assets/img/icons/VIP.png")}></img>
+              <img style={{ width: "60%", height: "100%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/VIP.png")}></img>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -110,7 +97,7 @@ export default function ExperienceSection(props) {
               <button style={{float:"bottom"}} class="btn btn-outline-primary" data-toggle="modal" data-target="#modal3">
                   More Details  <i class="fas fa-info-circle"></i>
               </button>
-              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} src={require("../../../assets/img/icons/Manhattan.png")}></img>
+              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/Manhattan.png")}></img>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -135,7 +122,7 @@ export default function ExperienceSection(props) {
               <button style={{float:"bottom"}} class="btn btn-outline-primary" data-toggle="modal" data-target="#modal4">
                   More Details  <i class="fas fa-info-circle"></i>
               </button>
-              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} src={require("../../../assets/img/icons/Manhattan.png")}></img>
+              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/Manhattan.png")}></img>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -153,7 +140,7 @@ export default function ExperienceSection(props) {
               <h2 style={{ fontSize: "20px" }} className="vertical-timeline-element-subtitle"><b>Project Management & Technology Intern at Georgia Tech, 2x Cisco Intern</b></h2>
               </div>
               <div style={{paddingTop:"10%", marginBottom:"0%"}}>
-              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} src={require("../../../assets/img/icons/cisco.webp")}></img>
+              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/cisco.webp")}></img>
               </div>
             </VerticalTimelineElement>
 

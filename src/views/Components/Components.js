@@ -1,8 +1,6 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// react components for routing our app without refresh
-import { Link } from "react-router-dom";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
@@ -28,7 +26,7 @@ export default function Components(props) {
   const { ...rest } = props;
 
   return (
-    <div>
+    <div style={{background:"linear-gradient(to bottom, black, #fff 100%)"}}>
       <Header
         
         brand="Tanishq Sandhu"
@@ -41,15 +39,15 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/dubai.JPG")}>
-        <div className={classes.container}>
-          <GridContainer style={{alignContent:"center"}}>
+      <Parallax image={require("assets/img/atl.jpg")} >
+        <div className={classes.container} style={{justifyItems:"center"}}>
+          <GridContainer >
             <GridItem  >
               
               <div style={{}} className={classes.brand}>
-                <img src={require("../../assets/img/Headshot.jpg")} style={{height:"50%", width:"25%", borderRadius:"50%", border: "3px solid white"}}></img>
+                <img src={require("../../assets/img/Headshot.jpg")} alt="" style={{height:"50%", width:"25%", borderRadius:"50%", border: "3px solid white", marginLeft:"35%"}}></img>
                 <br></br>
-                <h1 className={classes.title}>Tanishq Sandhu</h1>
+                <h1 className={classes.title} style={{marginLeft:"25%"}}>Tanishq Sandhu</h1>
               </div>
             </GridItem>
             
@@ -57,7 +55,7 @@ export default function Components(props) {
         </div>
       </Parallax>
 
-      <div className={classNames(classes.main, classes.mainRaised)}>
+      <div className={classNames(classes.main, classes.mainRaised)} >
         <LatestUpdates />
         <SectionBasics id="#about"/>
         <SkillsSection />

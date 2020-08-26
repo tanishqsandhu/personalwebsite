@@ -24,7 +24,7 @@ export default function ContactSection() {
                             <li><Tooltip TransitionComponent={Zoom} placement="top-end" title="LinkedIn" arrow><a href="https://www.linkedin.com/in/tanishqsandhu/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></Tooltip></li>
 
                             <li><Tooltip TransitionComponent={Zoom} placement="top-end" title="VSCO" arrow><a href="https://vsco.co/tanishqsandhu/images"><img style={{ width: "55%", marginTop: "20%" }} src={require("../../../assets/img/icons/vsco.png")} alt="VSCO Logo" /></a></Tooltip></li>
-                            <li><Tooltip TransitionComponent={Zoom} placement="top-end" title="Instagram" arrow><a href="https://instagram.com/tanishq.jpeg?igshid=v641smjwre38"><i class="fab fa-instagram" aria-hidden="true"></i></a></Tooltip></li>
+                            <li><Tooltip TransitionComponent={Zoom} placement="top-end" title="Instagram" arrow><a href="https://www.instagram.com/tanishq.sandhu/"><i class="fab fa-instagram" aria-hidden="true"></i></a></Tooltip></li>
                         </ul>
                     </div>
                 </div>
