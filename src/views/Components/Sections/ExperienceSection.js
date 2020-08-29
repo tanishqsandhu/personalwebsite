@@ -5,6 +5,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { Chip, Avatar } from '@material-ui/core';
 import { FaReact, FaFlask, FaLaptopCode, FaCloud, FaHistory } from 'react-icons/fa';
+import { Image } from 'react-bootstrap';
 
 const useStyles = makeStyles(styles);
 
@@ -28,10 +29,10 @@ export default function ExperienceSection(props) {
               icon={<FaReact />}
             >
               <div style={{ paddingLeft: "10px" }} className="row">
-                <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="React" size="small" avatar={<Avatar src={require("../../../assets/img/icons/react.png")} />} />
-                <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="MongoDB" size="small" avatar={<Avatar src={require("../../../assets/img/icons/mongo.png")} />} />
-                <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="Node.js" size="small" avatar={<Avatar src={require("../../../assets/img/icons/nodejslogo.png")} />} />
-                <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="Express.js" size="small" avatar={<Avatar src={require("../../../assets/img/icons/express.jpg")} />} />
+                <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="React" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/react.png"} />} />
+                <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="MongoDB" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/mongo.png"} />} />
+                <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="Node.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/nodejslogo.png"} />} />
+                <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="Express.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/express.jpg"} />} />
 
               </div>
               <div style={{ paddingLeft: "5%" }} className="row">
@@ -44,7 +45,7 @@ export default function ExperienceSection(props) {
               <button  class="btn btn-outline-primary" data-toggle="modal" data-target="#modal1">
                   More Details  <i class="fas fa-info-circle"></i>
               </button>
-              <img style={{ width: "30%", height: "100%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/808.webp")}></img>
+              <img style={{ width: "30%", height: "100%", float: "right", bottom: "0", right: "0" }} alt="" src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/808.webp"}/>
               </div>
             </VerticalTimelineElement>
 
@@ -57,8 +58,8 @@ export default function ExperienceSection(props) {
             >
               
               <div style={{ paddingLeft: "10px" }} className="row">
-              <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Genetic Programming" size="small" avatar={<Avatar src={require("../../../assets/img/icons/dna.jpg")} />} />
-                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Machine Learning" size="small" avatar={<Avatar src={require("../../../assets/img/icons/ml.jpg")} />} />
+              <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Genetic Programming" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/dna.jpg"} />} />
+                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Machine Learning" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/ml.jpg"} />} />
 
               </div>
               <div style={{ paddingLeft: "5%" }} className="row">
@@ -71,7 +72,7 @@ export default function ExperienceSection(props) {
               <button  class="btn btn-outline-primary" data-toggle="modal" data-target="#modal2">
                   More Details  <i class="fas fa-info-circle"></i>
               </button>
-              <img style={{ width: "60%", height: "100%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/VIP.png")}></img>
+              <img style={{ width: "60%", height: "100%", float: "right", bottom: "0", right: "0" }} alt="" src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/VIP.png"}></img>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -82,10 +83,10 @@ export default function ExperienceSection(props) {
 
             >
               <div style={{ paddingLeft: "10px" }} className="row">
-              <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Node.js" size="small" avatar={<Avatar src={require("../../../assets/img/icons/nodejslogo.png")} />} />
-                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Postman" size="small" avatar={<Avatar src={require("../../../assets/img/icons/postman.png")} />} />
-                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Express.js" size="small" avatar={<Avatar src={require("../../../assets/img/icons/express.jpg")} />} />
-                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Rest APIs" size="small" avatar={<Avatar src={require("../../../assets/img/icons/api.png")} />} />
+              <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Node.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/nodejslogo.png"} />} />
+                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Postman" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/postman.png"} />} />
+                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Express.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/express.jpg"} />} />
+                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Rest APIs" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/api.png"} />} />
               </div>
               <div style={{ paddingLeft: "5%" }} className="row">
                 <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Technical Services</h3> 
@@ -97,7 +98,7 @@ export default function ExperienceSection(props) {
               <button style={{float:"bottom"}} class="btn btn-outline-primary" data-toggle="modal" data-target="#modal3">
                   More Details  <i class="fas fa-info-circle"></i>
               </button>
-              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/Manhattan.png")}></img>
+              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/Manhattan.png"}></img>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -108,9 +109,9 @@ export default function ExperienceSection(props) {
 
             >
               <div style={{ paddingLeft: "10px" }} className="row">
-              <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Python" size="small" avatar={<Avatar src={require("../../../assets/img/icons/python.png")} />} />
-                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="IBM MQ" size="small" avatar={<Avatar src={require("../../../assets/img/icons/ibmmq.png")} />} />
-                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Linux" size="small" avatar={<Avatar src={require("../../../assets/img/icons/linux.jpg")} />} />
+              <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Python" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/python.png"} />} />
+                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="IBM MQ" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/ibmmq.png"} />} />
+                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Linux" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/linux.jpg"} />} />
               </div>
               <div style={{ paddingLeft: "5%" }} className="row">
                 <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Cloud Services</h3> 
@@ -122,7 +123,7 @@ export default function ExperienceSection(props) {
               <button style={{float:"bottom"}} class="btn btn-outline-primary" data-toggle="modal" data-target="#modal4">
                   More Details  <i class="fas fa-info-circle"></i>
               </button>
-              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/Manhattan.png")}></img>
+              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/Manhattan.png"}></img>
               </div>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -140,7 +141,7 @@ export default function ExperienceSection(props) {
               <h2 style={{ fontSize: "20px" }} className="vertical-timeline-element-subtitle"><b>Project Management & Technology Intern at Georgia Tech, 2x Cisco Intern</b></h2>
               </div>
               <div style={{paddingTop:"10%", marginBottom:"0%"}}>
-              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={require("../../../assets/img/icons/cisco.webp")}></img>
+              <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/cisco.webp"}></img>
               </div>
             </VerticalTimelineElement>
 

@@ -48,9 +48,12 @@ const headerLinksStyle = theme => ({
     textDecoration: "none",
     margin: "0px",
     display: "inline-flex",
-    "&:hover,&:focus": {
+    "&:hover": {
       color: "inherit",
       background: "rgba(200, 200, 200, 0.2)"
+    },
+    ",&:focus":{
+      color: "inherit"
     },
     [theme.breakpoints.down("sm")]: {
       width: "calc(100% - 30px)",
@@ -87,8 +90,7 @@ const headerLinksStyle = theme => ({
     display: "inline-flex"
   },
   navLinkActive: {
-    color: "inherit",
-    backgroundColor: "rgba(255, 255, 255, 0.1)"
+    color: "inherit"
   },
   icons: {
     width: "20px",

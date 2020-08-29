@@ -39,13 +39,13 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/atl.jpg")} >
+      <Parallax image={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/atl.jpg"} >
         <div className={classes.container} style={{justifyItems:"center"}}>
           <GridContainer >
             <GridItem  >
               
               <div style={{}} className={classes.brand}>
-                <img src={require("../../assets/img/Headshot.jpg")} alt="" style={{height:"50%", width:"25%", borderRadius:"50%", border: "3px solid white", marginLeft:"35%"}}></img>
+                <img src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/Headshot.jpg"} alt="" style={{height:"50%", width:"25%", borderRadius:"50%", border: "3px solid white", marginLeft:"35%"}}></img>
                 <br></br>
                 <h1 className={classes.title} style={{marginLeft:"25%"}}>Tanishq Sandhu</h1>
               </div>
@@ -56,8 +56,8 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)} >
+        <SectionBasics/>
         <LatestUpdates />
-        <SectionBasics id="#about"/>
         <SkillsSection />
         <ExperienceSection />
         <ContactSection/>

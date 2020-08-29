@@ -12,7 +12,7 @@ export default function SectionBasics() {
 
 
   return (
-    <div className={classes.sections}>
+    <div className={classes.sections} style={{backgroundColor:"white"}}>
       <div className={classes.container}>
         <div className={classes.title}>
           <h2><b>Brief Introduction</b></h2>

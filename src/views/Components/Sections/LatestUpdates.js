@@ -14,14 +14,14 @@ export default function LatestUpdates() {
 
 
   return (
-    <div className={classes.section}>
+    <div className={classes.section} style={{backgroundColor:"rgb(238, 238, 238)"}}>
       <div className={classes.container}>
         <h2 style={{ paddingTop: "40px" }}><b>Recent Activity</b></h2>
         <hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
         <div styles={netflixStyles} className="container">
           <div className="box">
             <Card style={{ backgroundColor: "#F4F4F4", height: "350px", width: "300px", textAlign: "center"}}>
-              <img src={require("../../../assets/img/BDBI.jpeg")} alt="" style={{ width: "150px", paddingTop: "20px" }}></img>
+              <img src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/BDBI.jpeg"} alt="" style={{ width: "150px", paddingTop: "20px" }}></img>
               <h4><b>Vice President of</b></h4>
               <h4><b>Big Data Big Impact @ GT</b></h4>
               <div  style={{marginTop:"10%"}}>
@@ -33,7 +33,7 @@ export default function LatestUpdates() {
           </div>
           <div className="box">
             <Card style={{ backgroundColor: "#F4F4F4", height: "350px", width: "300px", textAlign: "center" }}>
-              <img src={require("../../../assets/img/deviparikh.jpg")} alt="" style={{ width: "150px", paddingTop: "20px" }}></img>
+              <img src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/deviparikh.jpg"} alt="" style={{ width: "150px", paddingTop: "20px" }}></img>
               <h4><b>Incoming Research Assistant for Dr. Devi Parikh in her Creativity + AI initiative</b></h4>
               <div style={{marginTop:"5%"}}>
                 <hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
@@ -45,7 +45,7 @@ export default function LatestUpdates() {
           <div className="box">
 
             <Card style={{ backgroundColor: "#F4F4F4", height: "350px", width: "300px", textAlign: "center" }}>
-              <img src={require("../../../assets/img/icons/VIP.jpg")} alt="" style={{ width: "180px", paddingTop: "25px" }}></img>
+              <img src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/VIP.jpg"} alt="" style={{ width: "180px", paddingTop: "25px" }}></img>
               <h4><b>Incoming Student Researcher for Automated Algorithm Design (Subteam: Stocks) </b></h4>
               <div style={{marginTop:"8%"}}>
                 <hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
