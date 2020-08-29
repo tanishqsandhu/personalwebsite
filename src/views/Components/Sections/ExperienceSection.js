@@ -5,7 +5,6 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { Chip, Avatar } from '@material-ui/core';
 import { FaReact, FaFlask, FaLaptopCode, FaCloud, FaHistory } from 'react-icons/fa';
-import { Image } from 'react-bootstrap';
 
 const useStyles = makeStyles(styles);
 
