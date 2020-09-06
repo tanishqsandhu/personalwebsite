@@ -10,8 +10,10 @@ import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 import styles from "assets/jss/material-kit-react/components/headerStyle.js";
+import Scroll from "react-scroll";
 
 const useStyles = makeStyles(styles);
+const scroll = Scroll.animateScroll;
 
 export default function Header(props) {
   const classes = useStyles();
@@ -55,7 +57,7 @@ export default function Header(props) {
     [classes.absolute]: absolute,
     [classes.fixed]: fixed
   });
-  const brandComponent = <Button className={classes.title}><h3>{brand}</h3></Button>;
+  const brandComponent = <Button className={classes.title} onClick={() => {scroll.scrollToTop()}}><h3>{brand}</h3></Button>;
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
