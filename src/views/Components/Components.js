@@ -18,12 +18,15 @@ import ExperienceSection from "./Sections/ExperienceSection.js";
 import LatestUpdates from "./Sections/LatestUpdates.js";
 import ContactSection from "./Sections/ContactSection.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
-
+import Scroll from "react-scroll";
 const useStyles = makeStyles(styles);
 
+
 export default function Components(props) {
+  var Element  = Scroll.Element;
   const classes = useStyles();
   const { ...rest } = props;
+
 
   return (
     <div style={{background:"linear-gradient(to bottom, black, #fff 100%)"}}>
@@ -56,11 +59,11 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)} >
-        <SectionBasics/>
-        <LatestUpdates />
-        <SkillsSection />
-        <ExperienceSection />
-        <ContactSection/>
+        <Element name="about"><SectionBasics/></Element>
+        <Element name="updates"><LatestUpdates /></Element>
+        <Element name="skills"><SkillsSection /></Element>
+        <Element name="experience"><ExperienceSection /></Element>
+        <Element name="contact"><ContactSection/></Element>
       </div>
       <Footer />
     </div>
