@@ -16,5 +16,7 @@ RUN npm install react-scripts -g --silent
 # add app
 COPY . ./
 
+EXPOSE 8080
+
 # start app
 CMD ["npm", "start"]
