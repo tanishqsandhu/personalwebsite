@@ -38,7 +38,8 @@
     "react-vertical-timeline-component": "^3.0.2",
     "reactstrap": "^8.5.1",
     "simple-react-pdf": "^1.0.9",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "zlib": "^1.0.5"
   },
   "devDependencies": {
     "@babel/cli": "7.10.1",
