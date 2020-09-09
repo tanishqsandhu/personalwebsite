@@ -2,9 +2,14 @@ FROM node:11.0.0
 
 WORKDIR /app
 
-COPY . /app
-
 RUN npm install
 
+RUN npm install react-scripts@1.9.0 -g
+
+COPY . /app
+
 EXPOSE 3000
-CMD npm start
+# build the folder
+RUN npm start
+
+
