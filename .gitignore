@@ -4,7 +4,7 @@ node_modules/
 .DS_Store
 src/.DS_Store
 src/assets/.DS_Store
-
+build/*
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

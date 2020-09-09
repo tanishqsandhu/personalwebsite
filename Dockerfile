@@ -6,8 +6,11 @@ COPY . /app
 
 RUN npm install
 
-RUN npm rebuild node-sass
 
-CMD npm start
+CMD npm run build
+
+RUN npm install -g serve
+
+CMD serve -s build
 
 EXPOSE 3000
