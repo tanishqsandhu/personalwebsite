@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN npm install
 
-RUN npm install react-scripts@1.9.0 -g
+RUN npm install react-scripts@3.4.3 -g
 
 COPY . /app
 
