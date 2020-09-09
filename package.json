@@ -31,7 +31,7 @@
     "react-modal": "^3.11.2",
     "react-pdf": "^4.2.0",
     "react-router-dom": "5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.1",
     "react-scroll": "^1.8.1",
     "react-slick": "0.26.1",
     "react-swipeable-views": "0.13.9",

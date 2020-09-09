@@ -1,22 +1,11 @@
-# pull official base image
-FROM node:14.9.0
+FROM node:11.0.0
 
-# set working directory
 WORKDIR /app
 
-# add `/app/node_modules/.bin` to $PATH
-ENV PATH /app/node_modules/.bin:$PATH
+COPY . /app
 
-# install app dependencies
-COPY package.json ./
-COPY package-lock.json ./
-RUN npm install --silent
-RUN npm install react-scripts -g --silent
+RUN npm install
 
-# add app
-COPY . ./
+CMD npm start
 
-EXPOSE 8080
-
-# start app
-CMD ["npm", "start"]
+EXPOSE 3000
