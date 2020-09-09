@@ -9,7 +9,7 @@ import Button from "@material-ui/core/Button";
 import Hidden from "@material-ui/core/Hidden";
 import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
-import styles from "assets/jss/material-kit-react/components/headerStyle.js";
+import styles from "../../assets/jss/material-kit-react/components/headerStyle.js";
 import Scroll from "react-scroll";
 
 const useStyles = makeStyles(styles);

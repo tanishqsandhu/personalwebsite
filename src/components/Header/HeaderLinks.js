@@ -7,7 +7,7 @@ import Scroll from "react-scroll";
 import { makeStyles } from "@material-ui/core/styles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
+import styles from "../../assets/jss/material-kit-react/components/headerLinksStyle.js";
 const scroll = Scroll.animateScroll;
 var scroller = Scroll.scroller;
 const useStyles = makeStyles(styles);

@@ -4,8 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import { Card, Button } from '@material-ui/core';
 
-import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
-import netflixStyles from "assets/css/netflixStyleCarousel.css";
+import styles from "../../../assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
+import netflixStyles from "../../../assets/css/netflixStyleCarousel.css";
 
 const useStyles = makeStyles(styles);
 

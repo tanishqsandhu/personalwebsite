@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "assets/jss/material-kit-react/views/componentsSections/tabsStyle.js";
+import styles from "../../../assets/jss/material-kit-react/views/componentsSections/tabsStyle.js";
 import { makeStyles } from "@material-ui/core/styles";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';

@@ -2,8 +2,8 @@ import React from "react";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 import { Tooltip } from "@material-ui/core";
-import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
-import socialStyle from "assets/css/socials.css";
+import styles from "../../../assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
+import socialStyle from "../../../assets/css/socials.css";
 import Zoom from '@material-ui/core/Zoom';
 const useStyles = makeStyles(styles);
 const socialStyles = makeStyles(socialStyle);

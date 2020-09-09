@@ -3,7 +3,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import progressBar from "../../../assets/css/progress-bar.css";
 import carouselHover from "../../../assets/css/carouselHover.css";
-import styles from "assets/jss/material-kit-react/views/componentsSections/tabsStyle.js";
+import styles from "../../../assets/jss/material-kit-react/views/componentsSections/tabsStyle.js";
 const useStyles = makeStyles(styles);
 
 export default function SkillsSection() {
