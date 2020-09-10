@@ -15,7 +15,7 @@ const useStyles = makeStyles(styles);
 export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
-    <List className={classes.list}>
+    <List className={classes.list} style={{font:"Arial"}}>
       <ListItem className={classes.listItem}>
         <Link className={classes.navLink} onClick={() => {
           scroller.scrollTo("about", {
@@ -24,7 +24,7 @@ export default function HeaderLinks(props) {
             smooth: true,
             offset: -20
           })
-        }} ><h4>About</h4></Link>
+        }} ><h5>About</h5></Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link className={classes.navLink} onClick={() => {
@@ -34,7 +34,7 @@ export default function HeaderLinks(props) {
             smooth: true,
             offset: -70
           })
-        }} ><h4>Recent Activity</h4></Link>
+        }} ><h5>Recent Activity</h5></Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link className={classes.navLink} onClick={() => {
@@ -44,7 +44,7 @@ export default function HeaderLinks(props) {
             smooth: true,
             offset: -20
           })
-        }} ><h4>Skills</h4></Link>
+        }} ><h5>Skills</h5></Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Link className={classes.navLink} onClick={() => {
@@ -54,10 +54,10 @@ export default function HeaderLinks(props) {
             smooth: true,
             offset: -20
           })
-        }} ><h4>Experience</h4></Link>
+        }} ><h5>Experience</h5></Link>
       </ListItem>
       <ListItem className={classes.listItem}>
-        <Link className={classes.navLink} onClick={() => { scroll.scrollToBottom() }} ><h4>Contact</h4></Link>
+        <Link className={classes.navLink} onClick={() => { scroll.scrollToBottom() }} ><h5>Contact</h5></Link>
       </ListItem>
     </List>
   );

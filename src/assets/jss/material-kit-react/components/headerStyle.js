@@ -52,7 +52,7 @@ const headerStyle = {
     flex: 1
   },
   title: {
-    ...defaultFont,
+    fontFamily:"Arial",
     backgroundColor: "transparent",
     lineHeight: "30px",
     fontSize: "18px",

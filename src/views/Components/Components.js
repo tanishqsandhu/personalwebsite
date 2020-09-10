@@ -50,7 +50,7 @@ export default function Components(props) {
               <div style={{}} className={classes.brand}>
                 <img src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/Headshot.jpg"} alt="" style={{height:"50%", width:"25%", borderRadius:"50%", border: "3px solid white", marginLeft:"35%"}}></img>
                 <br></br>
-                <h1 className={classes.title} style={{marginLeft:"25%"}}>Tanishq Sandhu</h1>
+                <h2 className={classes.title} style={{marginLeft:"25%", fontFamily:"Arial"}}>Tanishq Sandhu</h2>
               </div>
             </GridItem>
             
@@ -58,7 +58,7 @@ export default function Components(props) {
         </div>
       </Parallax>
 
-      <div className={classNames(classes.main, classes.mainRaised)} >
+      <div className={classNames(classes.main, classes.mainRaised)} style={{fontFamily:"Arial", font:"darkgrey"}}>
         <Element name="about"><SectionBasics/></Element>
         <Element name="updates"><LatestUpdates /></Element>
         <Element name="skills"><SkillsSection /></Element>

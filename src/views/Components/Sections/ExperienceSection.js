@@ -34,9 +34,11 @@ export default function ExperienceSection(props) {
                 <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="Express.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/express.jpg"} />} />
 
               </div>
+              <hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Web Development Intern</h3> 
-              </div>
+                
+                <h3 style={{ fontSize: "20px" }} className="vertical-timeline-element-title">Web Development Intern</h3> 
+              </div><hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{ paddingLeft: "2%" }}>
               <h2 style={{ fontSize: "18px" }} className="vertical-timeline-element-subtitle"><b>The 808 Wave</b></h2>
               </div>
@@ -61,11 +63,12 @@ export default function ExperienceSection(props) {
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Machine Learning" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/ml.jpg"} />} />
 
               </div>
+              <hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Student Researcher with Automated Algorithm Design</h3> 
-              </div>
+                <h3 style={{ fontSize: "20px" }} className="vertical-timeline-element-title">Student Researcher with Automated Algorithm Design</h3> 
+              </div><hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{ paddingLeft: "2%" }}>
-              <h2 style={{ fontSize: "18px" }} className="vertical-timeline-element-subtitle"><b>Georgia Tech VIP Research</b></h2>
+              <h2 style={{ fontSize: "18px"}} className="vertical-timeline-element-subtitle"><b>Georgia Tech VIP Research</b></h2>
               </div>
               <div style={{paddingTop:"8%"}}>
               <button  class="btn btn-outline-primary" data-toggle="modal" data-target="#modal2">
@@ -85,11 +88,12 @@ export default function ExperienceSection(props) {
               <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Node.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/nodejslogo.png"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Postman" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/postman.png"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Express.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/express.jpg"} />} />
-                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Rest APIs" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/api.png"} />} />
+                <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Rest API" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/api.png"} />} />
               </div>
+              <hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Technical Services</h3> 
-              </div>
+                <h3 style={{fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Technical Services</h3> 
+              </div><hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{ paddingLeft: "2%" }}>
               <h2 style={{ fontSize: "20px" }} className="vertical-timeline-element-subtitle"><b>Manhattan Associates</b></h2>
               </div>
@@ -111,11 +115,12 @@ export default function ExperienceSection(props) {
               <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Python" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/python.png"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="IBM MQ" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/ibmmq.png"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Linux" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/linux.jpg"} />} />
-              </div>
+              </div><hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Cloud Services</h3> 
+                <h3 style={{ fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Cloud Services</h3> 
               </div>
               <div style={{ paddingLeft: "2%" }}>
+              <hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <h2 style={{ fontSize: "20px" }} className="vertical-timeline-element-subtitle"><b>Manhattan Associates</b></h2>
               </div>
               <div style={{paddingTop:"10%", marginBottom:"0%"}}>
@@ -134,11 +139,12 @@ export default function ExperienceSection(props) {
             >
     
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Previous Experiences:</h3> 
+                <h3 style={{  fontSize: "20px" }} className="vertical-timeline-element-title">Previous Experiences:</h3> 
               </div>
+              <hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{ paddingLeft: "2%" }}>
               <h2 style={{ fontSize: "20px" }} className="vertical-timeline-element-subtitle"><b>Project Management & Technology Intern at Georgia Tech, 2x Cisco Intern</b></h2>
-              </div>
+              </div><hr  style={{borderTop:"1px solid #bbb", borderRadius:"5px"}}/>
               <div style={{paddingTop:"10%", marginBottom:"0%"}}>
               <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/cisco.webp"}></img>
               </div>
@@ -151,14 +157,14 @@ export default function ExperienceSection(props) {
               <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h3 class="modal-title" style={{ fontSize: "20px", paddingLeft:"5%" }} id="exampleModalLabel"><b>Web Development Intern at The 808 Wave</b></h3>
+                    <h3 class="modal-title" style={{fontSize: "22px", paddingLeft:"5%", fontFamily:"Arial"}} id="exampleModalLabel"><b>Web Development Intern at The 808 Wave</b></h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-                  <h4><ul>The 808 Wave is a Georgia Tech-based start up working to provide a music networking platform for underground, undiscovered, up and coming music creatives to connect and collaborate.
-                  </ul></h4>
+                  <div class="modal-body" style={{fontFamily:"Arial", fontSize:"20px"}}>
+                  <h5><ul>The 808 Wave is a Georgia Tech-based start up working to provide a music networking platform for underground, undiscovered, up and coming music creatives to connect and collaborate.
+                  </ul></h5>
                   </div>
                 </div>
               </div>
@@ -167,16 +173,16 @@ export default function ExperienceSection(props) {
               <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h3 class="modal-title" style={{ fontSize: "20px", paddingLeft:"5%" }} id="exampleModalLabel"><b>Student Researcher with Automated Algorithm Design (A Georgia-Tech Vertically Integrated Project</b></h3>
+                    <h2 class="modal-title" style={{ fontSize: "22px", paddingLeft:"5%", fontFamily:"Arial" }} id="exampleModalLabel"><b>Student Researcher with Automated Algorithm Design (A Georgia-Tech Vertically Integrated Project</b></h2>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-                  <h4>
+                  <div class="modal-body" style={{fontFamily:"Arial", fontSize:"20px"}}>
+                  <h5>
                   <ul> - Working on a team to develop an evolutionary Cartesian Genetic Programming framework to automatically optimize neural networks under the guidance of Dr. Greg Rohling and Dr. Jason Zutty</ul>
                   <ul> - Partners/Sponsors: Google, L3Harris Technologies, Georgia Tech Research Institute (GTRI)</ul>
-                  </h4>
+                  </h5>
                   </div>
                 </div>
               </div>
@@ -185,19 +191,19 @@ export default function ExperienceSection(props) {
               <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h3 class="modal-title" style={{ fontSize: "20px", paddingLeft:"5%" }} id="exampleModalLabel"><b>Professional Services Technical Analyst Co-op, Technical Services</b></h3>
+                    <h3 class="modal-title" style={{ fontSize: "22px", paddingLeft:"5%", fontFamily:"Arial" }} id="exampleModalLabel"><b>Professional Services Technical Analyst Co-op, Technical Services</b></h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-                  <h4>
+                  <div class="modal-body" style={{fontFamily:"Arial", fontSize:"20px"}}>
+                  <h5>
                   <ul>• Utilized Node.js for aiding in development efforts on an internal tool for Technical Services Dept to manage code extensions
                   </ul>
                   <ul>• Developed REST API’s to integrate MA Store and MySQL Database to keep track of code drops and their respective statuses
                   </ul><ul>• Increased Application performance by integrating cache-filtering to replace traditional database-calls
                   </ul><ul>• Tested API’s using Postman
-                  </ul></h4>
+                  </ul></h5>
                   </div>
                 </div>
               </div>
@@ -206,13 +212,13 @@ export default function ExperienceSection(props) {
               <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h3 class="modal-title" style={{ fontSize: "20px", paddingLeft:"5%" }} id="exampleModalLabel"><b>Professional Services Technical Analyst Co-op, Technical Services</b></h3>
+                    <h3 class="modal-title" style={{ fontSize: "14", paddingLeft:"5%",fontFamily:"Arial" }} id="exampleModalLabel"><b>Professional Services Technical Analyst Co-op, Cloud Services</b></h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
-                  <div class="modal-body">
-                  <h4>
+                  <div class="modal-body" style={{fontFamily:"Arial", fontSize:"20px"}}>
+                  <h5>
                   <ul>• Fulfilled Solution Delivery Notice (SDN) Install requests from Clients (Applying Java Fixpacks, DB Installs, etc.)
                   </ul><ul> • Stretch Project: Worked with team to Automate database logfile exports using Python
                   </ul><ul>  • Corrected Erroneous Customer Inbound Order XML files
@@ -221,7 +227,7 @@ export default function ExperienceSection(props) {
                   </ul><ul>  - Application KPI's (CPU/Storage/Memory/Heap Usage)
                   </ul><ul> - Queue Alerts for Clients in IBM MQ
                   </ul><ul> - DB server resource usage (make space on servers as needed, killing long-running SQL's, etc.)
-                  </ul></h4>
+                  </ul></h5>
                   </div>
                 </div>
               </div>
