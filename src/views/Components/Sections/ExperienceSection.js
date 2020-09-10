@@ -34,9 +34,10 @@ export default function ExperienceSection(props) {
                 <Chip color="default" style={{ fontSize: "15px", margin: "1%" }} label="Express.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/express.jpg"} />} />
 
               </div>
+              <hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Web Development Intern</h3> 
-              </div>
+                <h3 style={{  fontSize: "20px" }} className="vertical-timeline-element-title">Web Development Intern</h3> 
+              </div><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{ paddingLeft: "2%" }}>
               <h2 style={{ fontSize: "18px" }} className="vertical-timeline-element-subtitle"><b>The 808 Wave</b></h2>
               </div>
@@ -60,10 +61,10 @@ export default function ExperienceSection(props) {
               <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Genetic Programming" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/dna.jpg"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Machine Learning" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/ml.jpg"} />} />
 
-              </div>
+              </div><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Student Researcher with Automated Algorithm Design</h3> 
-              </div>
+                <h3 style={{  fontSize: "20px" }} className="vertical-timeline-element-title">Student Researcher with Automated Algorithm Design</h3> 
+              </div><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{ paddingLeft: "2%" }}>
               <h2 style={{ fontSize: "18px" }} className="vertical-timeline-element-subtitle"><b>Georgia Tech VIP Research</b></h2>
               </div>
@@ -86,10 +87,10 @@ export default function ExperienceSection(props) {
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Postman" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/postman.png"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Express.js" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/express.jpg"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Rest APIs" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/api.png"} />} />
-              </div>
+              </div><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Technical Services</h3> 
-              </div>
+                <h3 style={{ fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Technical Services</h3> 
+              </div><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{ paddingLeft: "2%" }}>
               <h2 style={{ fontSize: "20px" }} className="vertical-timeline-element-subtitle"><b>Manhattan Associates</b></h2>
               </div>
@@ -111,10 +112,10 @@ export default function ExperienceSection(props) {
               <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Python" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/python.png"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="IBM MQ" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/ibmmq.png"} />} />
                 <Chip color="#87CEEB" style={{ fontSize: "15px", margin: "1%" }} label="Linux" size="small" avatar={<Avatar src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/linux.jpg"} />} />
-              </div>
+              </div><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{ paddingLeft: "5%" }} className="row">
-                <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Cloud Services</h3> 
-              </div>
+                <h3 style={{ fontSize: "20px" }} className="vertical-timeline-element-title">Technical Analyst Intern, Cloud Services</h3> 
+              </div><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{ paddingLeft: "2%" }}>
               <h2 style={{ fontSize: "20px" }} className="vertical-timeline-element-subtitle"><b>Manhattan Associates</b></h2>
               </div>
@@ -136,9 +137,9 @@ export default function ExperienceSection(props) {
               <div style={{ paddingLeft: "5%" }} className="row">
                 <h3 style={{ paddingTop: "20px", fontSize: "20px" }} className="vertical-timeline-element-title">Previous Experiences:</h3> 
               </div>
-              <div style={{ paddingLeft: "2%" }}>
+              <div style={{ paddingLeft: "2%" }}><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <h2 style={{ fontSize: "20px" }} className="vertical-timeline-element-subtitle"><b>Project Management & Technology Intern at Georgia Tech, 2x Cisco Intern</b></h2>
-              </div>
+              </div><hr style={{ borderTop: "1px solid #bbb", borderRadius: "5px" }} />
               <div style={{paddingTop:"10%", marginBottom:"0%"}}>
               <img style={{ width: "15%", height: "20%", float: "right", bottom: "0", right: "0" }} alt="" src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/cisco.webp"}></img>
               </div>
