@@ -4,7 +4,7 @@ import tooltip from "../tooltipsStyle.js";
 
 const headerLinksStyle = theme => ({
   list: {
-    fontFamily:"Arial",
+    ...defaultFont,
     fontSize: "14px",
     margin: 0,
     paddingLeft: "0",
@@ -42,14 +42,13 @@ const headerLinksStyle = theme => ({
     padding: "0.9375rem",
     fontWeight: "400",
     fontSize: "12px",
-    textTransform: "",
+    textTransform: "uppercase",
     borderRadius: "3px",
     lineHeight: "20px",
     textDecoration: "none",
     margin: "0px",
     display: "inline-flex",
     "&:hover": {
-      textDecoration: "none",
       color: "inherit",
       background: "rgba(200, 200, 200, 0.2)"
     },

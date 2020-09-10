@@ -7,9 +7,8 @@ const componentsStyle = {
     textAlign: "left"
   },
   title: {
-    fontFamily:"Arial",
     fontSize: "4.2rem",
-    fontWeight: "500",
+    fontWeight: "600",
     display: "inline-block",
     position: "relative"
   },
