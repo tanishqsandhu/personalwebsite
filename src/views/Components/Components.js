@@ -23,15 +23,15 @@ const useStyles = makeStyles(styles);
 
 
 export default function Components(props) {
-  var Element  = Scroll.Element;
+  var Element = Scroll.Element;
   const classes = useStyles();
   const { ...rest } = props;
 
 
   return (
-    <div style={{background:"linear-gradient(to bottom, black, #fff 100%)"}}>
+    <div style={{ background: "linear-gradient(to bottom, black, #fff 100%)" }}>
       <Header
-        
+
         brand="Tanishq Sandhu"
         rightLinks={<HeaderLinks />}
         fixed
@@ -43,27 +43,27 @@ export default function Components(props) {
         {...rest}
       />
       <Parallax image={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/atl.jpg"} >
-        <div className={classes.container} style={{justifyItems:"center"}}>
+        <div className={classes.container} style={{ justifyItems: "center" }}>
           <GridContainer >
             <GridItem  >
-              
+
               <div style={{}} className={classes.brand}>
-                <img src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/Headshot.jpg"} alt="" style={{height:"50%", width:"25%", borderRadius:"50%", border: "3px solid white", marginLeft:"35%"}}></img>
+                <img src={"https://personalwebsiteimages.s3.us-east-2.amazonaws.com/Headshot.jpg"} alt="" style={{ height: "50%", width: "25%", borderRadius: "50%", border: "3px solid white", marginLeft: "35%" }}></img>
                 <br></br>
-                <h1 className={classes.title} style={{marginLeft:"25%"}}>Tanishq Sandhu</h1>
+                <h1 className={classes.title} style={{ marginLeft: "25%" }}>Tanishq Sandhu</h1>
               </div>
             </GridItem>
-            
+
           </GridContainer>
         </div>
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)} >
-        <Element name="about"><SectionBasics/></Element>
+        <Element name="about"><SectionBasics /></Element>
         <Element name="updates"><LatestUpdates /></Element>
         <Element name="skills"><SkillsSection /></Element>
         <Element name="experience"><ExperienceSection /></Element>
-        <Element name="contact"><ContactSection/></Element>
+        <Element name="contact"><ContactSection /></Element>
       </div>
       <Footer />
     </div>
